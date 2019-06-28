@@ -7,7 +7,7 @@ const orderRoutes = require("./api/routes/orders");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-const atlasPw = "node-rest-shop-charlie";
+const atlasPw = "password";
 
 // Connect to MongoAtlas server via URL
 mongoose.connect(
